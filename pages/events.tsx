@@ -80,7 +80,7 @@ const events: React.FC = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
-      <main className='pt-24'>
+      <main className='pt-24 overflow-hidden'>
         <EventHero />
         <EventCard content={eventList} />
       </main>
