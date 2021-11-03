@@ -1,5 +1,5 @@
 import React from 'react';
-// import { HiOutlineArrowNarrowDown } from 'react-icons/Hi';
+import { HiOutlineArrowNarrowDown } from 'react-icons/Hi';
 
 export const EventHero: React.FC = () => {
   return (
@@ -90,9 +90,9 @@ export const EventHero: React.FC = () => {
           </p>
         </div>
       </main>
-      {/* <div className='absolute bottom-0 animate-bounce w-full mt-5 mx-auto flex justify-center md:mt-8'>
+      <div className='absolute bottom-0 animate-bounce w-full mt-5 mx-auto flex justify-center md:mt-8'>
         <HiOutlineArrowNarrowDown size={60} color='#6666f5' />
-      </div> */}
+      </div>
     </div>
   );
 };
