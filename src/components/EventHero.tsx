@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiOutlineArrowNarrowDown } from 'react-icons/Hi';
+import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
 
 export const EventHero: React.FC = () => {
   return (

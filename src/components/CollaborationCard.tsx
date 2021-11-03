@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 const stats = [
   { label: 'Founded', value: '2018' },
   { label: 'Employees', value: '10' },
