@@ -1,8 +1,8 @@
-import { BsInstagram } from 'react-icons/Bs';
-import { BsGithub } from 'react-icons/Bs';
-import { BsTwitter } from 'react-icons/Bs';
-import { BsYoutube } from 'react-icons/Bs';
-import { BsLinkedin } from 'react-icons/Bs';
+import { BsInstagram } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
+import { BsYoutube } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
 
 const navigation = [
   {
