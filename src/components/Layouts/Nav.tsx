@@ -31,7 +31,7 @@ export const Nav: React.FC = () => {
                   src='/dsccvr.png'
                   alt='gdsccvr'
                 />
-                <span className='text-xl font-semibold mb-1'>
+                <span className='hidden lg:block text-xl font-semibold mb-1'>
                   Google Developers Student Club
                 </span>
               </div>

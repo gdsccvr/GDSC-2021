@@ -5,13 +5,13 @@ export const Hero: React.FC = () => {
     <div className='max-w-7xl bg-gray-50 mx-auto my-10 py-10 px-5'>
       <div className='flex flex-wrap justify-center lg:justify-between items-center'>
         <div className='flex flex-col w-full lg:w-1/2 px-5'>
-          <div className='flex flex-row items-center mb-5'>
+          <div className='flex flex-col md:flex-row items-center mb-5'>
             <img
               className='h-20 w-auto sm:h-20'
               src='/dsccvr.png'
               alt='gdsccvr'
             />
-            <h1 className='text-2xl font-semibold'>
+            <h1 className='text-xl font-semibold'>
               CVR COLLEGE OF ENGINEERING
             </h1>
           </div>
