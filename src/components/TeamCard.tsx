@@ -34,20 +34,44 @@ export const TeamCard: React.FC<IProps> = (props) => {
       </div>
 
       <div className='flex space-x-5'>
-        <a
-          href={props.person.linkedinUrl}
-          className='text-gray-400 hover:text-gray-500'
-        >
-          <span className='sr-only'>Linkedin</span>
-          <BsLinkedin />
-        </a>
-        <a
-          href={props.person.githubUrl}
-          className='text-gray-400 hover:text-gray-500'
-        >
-          <span className='sr-only'>Github</span>
-          <BsGithub />
-        </a>
+        {console.log(props.person.linkedinUrl)}
+        {props.person.instagramUrl !== '' ? (
+          <a
+            target='_blank'
+            href={props.person.linkedinUrl}
+            className='text-gray-400 hover:text-gray-500'
+          >
+            <span className='sr-only'>Linkedin</span>
+            <BsLinkedin />
+          </a>
+        ) : (
+          ''
+        )}
+        {props.person.githubUrl !== '' ? (
+          <a
+            target='_blank'
+            href={props.person.githubUrl}
+            className='text-gray-400 hover:text-gray-500'
+          >
+            <span className='sr-only'>Github</span>
+            <BsGithub />
+          </a>
+        ) : (
+          ''
+        )}
+        {props.person.instagramUrl !== '' ? (
+          <a
+            target='_blank'
+            href={props.person.instagramUrl}
+            className='text-gray-400 hover:text-gray-500'
+          >
+            <span className='sr-only'>Instagram</span>
+            <BsInstagram />
+          </a>
+        ) : (
+          ''
+        )}
+
         {/* <a
           href={props.person.twitterUrl}
           className='text-gray-400 hover:text-gray-500'
@@ -62,13 +86,6 @@ export const TeamCard: React.FC<IProps> = (props) => {
           <span className='sr-only'>Youtube</span>
           <BsYoutube />
         </a> */}
-        <a
-          href={props.person.instagramUrl}
-          className='text-gray-400 hover:text-gray-500'
-        >
-          <span className='sr-only'>Instagram</span>
-          <BsInstagram />
-        </a>
       </div>
     </div>
   );
