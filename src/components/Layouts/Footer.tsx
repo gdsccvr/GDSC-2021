@@ -40,6 +40,7 @@ export const Footer: React.FC = () => {
         <div className='flex justify-center space-x-6 md:order-2'>
           {navigation.map((item) => (
             <a
+              target='_blank'
               key={item.name}
               href={item.href}
               className='text-gray-400 hover:text-gray-500'
