@@ -39,7 +39,7 @@ export const BlogCard: React.FC<IProps> = (props) => {
               <a href={props.post.userUrl}>
                 <span className='sr-only'>{props.post.author.name}</span>
                 <img
-                  className='h-10 w-10 rounded-full'
+                  className='h-10 w-10 rounded-full object-cover'
                   src={props.post.author.imageUrl}
                   alt=''
                 />
@@ -47,9 +47,7 @@ export const BlogCard: React.FC<IProps> = (props) => {
             </div>
             <div className='ml-3'>
               <p className='text-sm font-medium text-gray-900'>
-                <a href='#' className='hover:underline'>
-                  {props.post.author.name}
-                </a>
+                <a>{props.post.author.name}</a>
               </p>
               <div className='flex space-x-1 text-sm text-gray-500'>
                 <time dateTime={props.post.date}>{props.post.date}</time>

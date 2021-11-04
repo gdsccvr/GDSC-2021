@@ -66,7 +66,7 @@ const blog: React.FC = () => {
                         {blogData && blogData.author.name}
                       </span>
                       <img
-                        className='h-10 w-10 rounded-full'
+                        className='h-10 w-10 rounded-full object-cover'
                         src={blogData && blogData.author.imageUrl}
                         alt=''
                       />
