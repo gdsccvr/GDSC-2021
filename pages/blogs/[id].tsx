@@ -45,7 +45,7 @@ const blog: React.FC = () => {
       <main className='pt-10'>
         <div className='bg-white overflow-hidden'>
           <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
-            <div className='relative -left-24 mb-5 cursor-pointer'>
+            <div className='relative -left-24 cursor-pointer mb-5'>
               <Link href='/blogs'>
                 <HiOutlineArrowNarrowLeft size={38} />
               </Link>
