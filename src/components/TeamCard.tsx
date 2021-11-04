@@ -34,7 +34,7 @@ export const TeamCard: React.FC<IProps> = (props) => {
       </div>
 
       <div className='flex space-x-5'>
-        {props.person.instagramUrl !== '' ? (
+        {props.person.instagramUrl && (
           <a
             target='_blank'
             href={props.person.linkedinUrl}
@@ -43,10 +43,8 @@ export const TeamCard: React.FC<IProps> = (props) => {
             <span className='sr-only'>Linkedin</span>
             <BsLinkedin />
           </a>
-        ) : (
-          ''
         )}
-        {props.person.githubUrl !== '' ? (
+        {props.person.githubUrl && (
           <a
             target='_blank'
             href={props.person.githubUrl}
@@ -55,10 +53,8 @@ export const TeamCard: React.FC<IProps> = (props) => {
             <span className='sr-only'>Github</span>
             <BsGithub />
           </a>
-        ) : (
-          ''
         )}
-        {props.person.instagramUrl !== '' ? (
+        {props.person.instagramUrl && (
           <a
             target='_blank'
             href={props.person.instagramUrl}
@@ -67,8 +63,6 @@ export const TeamCard: React.FC<IProps> = (props) => {
             <span className='sr-only'>Instagram</span>
             <BsInstagram />
           </a>
-        ) : (
-          ''
         )}
 
         {/* <a

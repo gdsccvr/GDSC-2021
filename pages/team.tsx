@@ -7,13 +7,13 @@ import { TeamCard } from '../src/components/TeamCard';
 
 const people = [
   {
-    name: 'Srimanth Tenneti',
-    role: 'Community Lead & Machine Learning Lead',
-    imageUrl: '/team/SrimanthTenneti.jpg',
+    name: 'Vijaya Mair',
+    role: 'Placement Co-ordinator and Mentor',
+    imageUrl: '/team/vijaya_mair.jpg',
     bio: `A 20 y/o Hardware Designer and Software Developer, I have a knack for designing Digital Systems using Verilog HDL and have worked with protocols like AXI, AXI - Lite, AXI - Stream, AHB, AHB - Lite, UART, SPI. I also have a good grasp on SOC design and am proficient with RISC-based CPU design. I've worked with various microcontroller units like STM32, MSP430, TIVA Series, Arduino, AVR Tiny Series and can develop a bare-metal code.`,
-    instagramUrl: 'https://www.instagram.com/srimanth_tenneti/',
-    githubUrl: 'https://github.com/srimanthtenneti',
-    linkedinUrl: 'https://www.linkedin.com/in/srimanth-tenneti-662b7117b/',
+    instagramUrl: '',
+    githubUrl: '',
+    linkedinUrl: 'https://www.linkedin.com/in/vijayamair/',
   },
   {
     name: 'SeetharamNagesh Appe',
@@ -25,22 +25,23 @@ const people = [
     linkedinUrl: 'https://www.linkedin.com/in/seetharamnagesh-appe-4584281aa/',
   },
   {
-    name: 'Vijaya Mair',
-    role: 'Placement Co-ordinator and Mentor',
-    imageUrl: '/team/vijaya_mair.jpg',
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl: '/team/SrimanthTenneti.jpg',
     bio: `A 20 y/o Hardware Designer and Software Developer, I have a knack for designing Digital Systems using Verilog HDL and have worked with protocols like AXI, AXI - Lite, AXI - Stream, AHB, AHB - Lite, UART, SPI. I also have a good grasp on SOC design and am proficient with RISC-based CPU design. I've worked with various microcontroller units like STM32, MSP430, TIVA Series, Arduino, AVR Tiny Series and can develop a bare-metal code.`,
-    instagramUrl: '',
-    githubUrl: '',
-    linkedinUrl: 'https://www.linkedin.com/in/vijayamair/',
+    instagramUrl: 'https://www.instagram.com/srimanth_tenneti/',
+    githubUrl: 'https://github.com/srimanthtenneti',
+    linkedinUrl: 'https://www.linkedin.com/in/srimanth-tenneti-662b7117b/',
   },
+
   {
     name: 'Vaishnavi Tammali',
     role: 'Corporate Outreach Lead',
     imageUrl: '/team/vaishnavi.jpeg',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-    instagramUrl: '',
-    githubUrl: '',
-    linkedinUrl: '',
+    instagramUrl: 'https://instagram.com/yshna_we?utm_medium=copy_link',
+    githubUrl: 'https://github.com/VaishnaviTammali',
+    linkedinUrl: 'https://www.linkedin.com/in/vaishnavi-tammali-9a14801b3',
   },
   {
     name: 'P Renu',
@@ -56,9 +57,10 @@ const people = [
     role: 'Management Lead',
     imageUrl: '/team/sirichandanreddy.JPG',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-    instagramUrl: '',
+    instagramUrl: 'https://www.instagram.com/sirichandan_reddy/',
     githubUrl: '',
-    linkedinUrl: '',
+    linkedinUrl:
+      'https://www.linkedin.com/in/sirichandan-reddy-beeravolu-257b031b5/',
   },
   {
     name: 'Vedanvita Gudavalli',
@@ -162,7 +164,7 @@ const people = [
   {
     name: 'Sandeep P',
     role: 'Android Lead',
-    imageUrl: '/team/sandeepprabhakula.jpg',
+    imageUrl: '/team/sandeep.jpg',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
     instagramUrl: 'https://instagram.com/sandeepo9o7',
     githubUrl: 'https://github.com/sandeep-prabhakula',
