@@ -34,7 +34,6 @@ export const TeamCard: React.FC<IProps> = (props) => {
       </div>
 
       <div className='flex space-x-5'>
-        {console.log(props.person.linkedinUrl)}
         {props.person.instagramUrl !== '' ? (
           <a
             target='_blank'
