@@ -1,5 +1,7 @@
 import { useRouter } from 'next/dist/client/router';
+import { HiOutlineArrowNarrowLeft } from 'react-icons/hi';
 import Head from 'next/head';
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { Footer } from '../../src/components/Layouts/Footer';
 import { Nav } from '../../src/components/Layouts/Nav';
@@ -43,6 +45,11 @@ const blog: React.FC = () => {
       <main className='pt-10'>
         <div className='bg-white overflow-hidden'>
           <div className='relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
+            <div className='relative -left-24 mb-5 cursor-pointer'>
+              <Link href='/blogs'>
+                <HiOutlineArrowNarrowLeft size={38} />
+              </Link>
+            </div>
             <div className='hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen' />
             <div className='mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none'>
               <div>
