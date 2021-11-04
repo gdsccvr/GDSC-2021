@@ -22,7 +22,7 @@ const people = [
     bio: `A 20 y/o Hardware Designer and Software Developer, I have a knack for designing Digital Systems using Verilog HDL and have worked with protocols like AXI, AXI - Lite, AXI - Stream, AHB, AHB - Lite, UART, SPI. I also have a good grasp on SOC design and am proficient with RISC-based CPU design. I've worked with various microcontroller units like STM32, MSP430, TIVA Series, Arduino, AVR Tiny Series and can develop a bare-metal code.`,
     instagramUrl: '',
     githubUrl: '',
-    linkedinUrl: 'https://www.linkedin.com/in/seetharamnagesh-appe-4584281aa/',
+    linkedinUrl: 'asas',
   },
   {
     name: 'Srimanth Tenneti',

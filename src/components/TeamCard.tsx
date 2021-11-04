@@ -34,7 +34,7 @@ export const TeamCard: React.FC<IProps> = (props) => {
       </div>
 
       <div className='flex space-x-5'>
-        {props.person.instagramUrl && (
+        {props.person.linkedinUrl && (
           <a
             target='_blank'
             href={props.person.linkedinUrl}
