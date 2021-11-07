@@ -168,7 +168,10 @@ export const CollaborationCard: React.FC<IProps> = (props) => {
               ))}
             </dl>
             <div className='mt-10'>
-              <a href='#' className='text-base font-medium text-yellow-500'>
+              <a
+                href='https://www.cyrrup.com/'
+                className='text-base font-medium text-yellow-500'
+              >
                 {' '}
                 More about Cyyrup <span aria-hidden='true'>&rarr;</span>{' '}
               </a>
