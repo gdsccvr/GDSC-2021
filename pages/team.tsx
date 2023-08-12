@@ -193,14 +193,15 @@ const team: React.FC = () => {
       <main>
         <div className="bg-white">
           <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-            <Marquee gradient={true} speed={100} direction="left">
+            <Marquee gradient={true} speed={80} direction="left">
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSe-7jbL-sXKlPA6DmWr__h4JOTq3R3JIlALpLjRIYywuj0DRw/viewform"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xl bold  text-blue-500"
               >
-                Applications are open to join the team of 2023-24, apply here
+                Applications are now open! To join the team of 2023-24, register
+                here!
               </a>
             </Marquee>
             <Heading
