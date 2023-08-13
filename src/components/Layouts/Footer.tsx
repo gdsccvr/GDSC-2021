@@ -52,7 +52,8 @@ export const Footer: React.FC = () => {
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
           <p className="text-center text-base text-gray-400">
-            &copy; 2021 Google Developers Student Club. All rights reserved.
+            &copy; {new Date().getFullYear()} Google Developers Student Club.
+            All rights reserved.
           </p>
         </div>
       </div>
