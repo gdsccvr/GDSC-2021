@@ -74,8 +74,9 @@ const tracks: React.FC = () => {
             Tracks
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-gray-300">
-            Our GDSC CVR has three tracks. Each track is dedicated on the
-            technologies and their respective development in the field.
+            Our GDSC CVR has {supportLinks.length} tracks. Each track is
+            dedicated on the technologies and their respective development in
+            the field.
           </p>
         </div>
       </div>
