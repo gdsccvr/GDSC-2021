@@ -189,7 +189,7 @@ const ApplicationFormLink = () => (
     rel="noopener noreferrer"
     className="text-2xl font-bold text-blue-500"
   >
-    Applications are now open! To join the team of 2023-24, register here!
+    Applications are now open! To join the team of 2023-24, apply here!
   </a>
 );
 
