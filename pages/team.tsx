@@ -182,6 +182,17 @@ const people = [
   },
 ];
 
+const ApplicationFormLink = () => (
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSe-7jbL-sXKlPA6DmWr__h4JOTq3R3JIlALpLjRIYywuj0DRw/viewform"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-2xl font-bold text-blue-500"
+  >
+    Applications are now open! To join the team of 2023-24, register here!
+  </a>
+);
+
 const team: React.FC = () => {
   return (
     <React.Fragment>
@@ -193,19 +204,23 @@ const team: React.FC = () => {
       <main>
         <div className="bg-white">
           <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-            <Marquee gradient={true} speed={80} direction="left">
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe-7jbL-sXKlPA6DmWr__h4JOTq3R3JIlALpLjRIYywuj0DRw/viewform"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xl bold  text-blue-500"
-              >
-                Applications are now open! To join the team of 2023-24, register
-                here!
-              </a>
-            </Marquee>
+            <div className="mt-20">
+              <div className="hidden md:block">
+                <Marquee
+                  gradient={true}
+                  speed={80}
+                  direction="left"
+                  pauseOnHover
+                >
+                  <ApplicationFormLink />
+                </Marquee>
+              </div>
+              <div className="md:hidden">
+                <ApplicationFormLink />
+              </div>
+            </div>
             <Heading
-              heading="Gdsc Team 2021"
+              heading="GDSC Team 2021"
               description="A team that is extremely innovative and always on toes when it comes to
         managing and organising an event that can help the student community in
         their technical endeavours."
