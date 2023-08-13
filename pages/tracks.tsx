@@ -52,7 +52,7 @@ const tracks: React.FC = () => {
   return (
     <div className="bg-white">
       <Head>
-        <title>GDSC | Collaboration</title>
+        <title>GDSC | Tracks</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
