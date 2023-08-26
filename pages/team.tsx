@@ -399,7 +399,7 @@ const people = [
   {
     role: "Graphic Designer",
     name: "Kowluru Sai",
-    imageUrl: "/team/Team2023/graphics/sai.jpeg",
+    imageUrl: "/team/Team2023/graphics/Sai.jpeg",
     instagramUrl: "https://www.instagram.com/sai_kowluru",
     githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/kowluru-sai-522032261"
