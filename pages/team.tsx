@@ -195,7 +195,7 @@ const ApplicationFormLink = () => (
 
 const team: React.FC = () => {
   return (
-    <>
+    <React.Fragment>
       <Head>
         <title>GDSC | Team</title>
         <link rel="icon" href="/favicon.ico" />
@@ -244,7 +244,7 @@ const team: React.FC = () => {
         </div>
       </main>
       <Footer />
-    </>
+    </React.Fragment>
   );
 };
 
