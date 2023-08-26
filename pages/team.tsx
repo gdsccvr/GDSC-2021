@@ -195,7 +195,7 @@ const ApplicationFormLink = () => (
 
 const team: React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <Head>
         <title>GDSC | Team</title>
         <link rel="icon" href="/favicon.ico" />
@@ -204,8 +204,8 @@ const team: React.FC = () => {
       <main>
         <div className="bg-white">
           <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
-            <div className="mt-20">
-              <div className="hidden md:block">
+            {/* <div className="mt-20"> */
+            /* <div className="hidden md:block">
                 <Marquee
                   gradient={true}
                   speed={80}
@@ -217,8 +217,8 @@ const team: React.FC = () => {
               </div>
               <div className="md:hidden">
                 <ApplicationFormLink />
-              </div>
-            </div>
+              </div> */
+            /* </div> */}
             <Heading
               heading="GDSC Team 2021"
               description="A team that is extremely innovative and always on toes when it comes to
@@ -244,7 +244,7 @@ const team: React.FC = () => {
         </div>
       </main>
       <Footer />
-    </React.Fragment>
+    </>
   );
 };
 
