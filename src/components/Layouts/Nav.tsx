@@ -22,20 +22,20 @@ export const Nav: React.FC = () => {
     <Popover className='fixed w-full z-20 bg-white border-b-2 border-gray-50 shadow-lg'>
       <div className='flex justify-between items-center px-4 py-4 sm:px-6 md:justify-start md:space-x-10'>
         <div className='flex justify-start lg:w-0 lg:flex-1'>
-          <Link href='/'>
-            <a className='flex items-center'>
-              <span className='sr-only'>CVR COLLEGE OF ENGINEERING</span>
-              <div className='flex flex-row items-center'>
-                <img
-                  className='h-12 w-auto sm:h-12'
-                  src='/dsccvr.png'
-                  alt='gdsccvr'
-                />
-                <span className='hidden lg:block text-xl font-semibold mb-1'>
-                  Google Developers Student Club
-                </span>
-              </div>
-            </a>
+          <Link href='/' className='flex items-center'>
+
+            <span className='sr-only'>CVR COLLEGE OF ENGINEERING</span>
+            <div className='flex flex-row items-center'>
+              <img
+                className='h-12 w-auto sm:h-12'
+                src='/dsccvr.png'
+                alt='gdsccvr'
+              />
+              <span className='hidden lg:block text-xl font-semibold mb-1'>
+                Google Developers Student Club
+              </span>
+            </div>
+
           </Link>
         </div>
         <div className='-mr-2 -my-2 md:hidden'>
@@ -109,7 +109,7 @@ export const Nav: React.FC = () => {
               }
 
               return (
-                <Link key={navigate.name} href={navigate.href}>
+                <Link key={navigate.name} href={navigate.href} legacyBehavior>
                   <span className='cursor-pointer text-lg font-medium text-gray-500 hover:text-gray-900'>
                     {navigate.name}
                   </span>
@@ -138,20 +138,20 @@ export const Nav: React.FC = () => {
           <div className='rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50'>
             <div className='pt-5 pb-6 px-5'>
               <div className='flex items-center justify-between'>
-                <Link href='/'>
-                  <a className='flex items-center'>
-                    <span className='sr-only'>CVR COLLEGE OF ENGINEERING</span>
-                    <div className='flex flex-row items-center'>
-                      <img
-                        className='h-12 w-auto sm:h-12'
-                        src='/dsccvr.png'
-                        alt='gdsccvr'
-                      />
-                      <span className='text-xl font-semibold mb-1'>
-                        Google Developers Student Club
-                      </span>
-                    </div>
-                  </a>
+                <Link href='/' className='flex items-center'>
+
+                  <span className='sr-only'>CVR COLLEGE OF ENGINEERING</span>
+                  <div className='flex flex-row items-center'>
+                    <img
+                      className='h-12 w-auto sm:h-12'
+                      src='/dsccvr.png'
+                      alt='gdsccvr'
+                    />
+                    <span className='text-xl font-semibold mb-1'>
+                      Google Developers Student Club
+                    </span>
+                  </div>
+
                 </Link>
                 <div className='-mr-2'>
                   <Popover.Button className='bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
@@ -230,7 +230,7 @@ export const Nav: React.FC = () => {
 
 
                   return (
-                    <Link key={navigate.name} href={navigate.href}>
+                    <Link key={navigate.name} href={navigate.href} legacyBehavior>
                       <span className='cursor-pointer text-lg font-medium text-gray-900 hover:text-gray-700'>
                         {navigate.name}
                       </span>

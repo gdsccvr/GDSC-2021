@@ -30,10 +30,11 @@ export const TrackCard: React.FC<IProps> = (props) => {
         <p className='mt-4 text-base text-gray-500'>{props.link.description}</p>
       </div>
       <div className='p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8'>
-        <Link href={'/team'}>
-          <a className='text-base font-medium text-red-600 hover:text-indigo-600'>
-            Team<span aria-hidden='true'> &rarr;</span>
-          </a>
+        <Link
+          href={'/team'}
+          className='text-base font-medium text-red-600 hover:text-indigo-600'>
+          Team<span aria-hidden='true'> &rarr;</span>
+
         </Link>
       </div>
     </div>

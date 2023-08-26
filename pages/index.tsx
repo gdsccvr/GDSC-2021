@@ -15,7 +15,7 @@ import { Testimonial } from "../src/components/Testimonial";
 
 const Home: React.FC = () => {
   return (
-    <>
+    <React.Fragment>
       <Head>
         <title>GDSC - CVR</title>
         <link rel="icon" href="/favicon.ico" />
@@ -28,7 +28,7 @@ const Home: React.FC = () => {
         <FAQ />
       </main>
       <Footer />
-    </>
+    </React.Fragment>
   );
 };
 
