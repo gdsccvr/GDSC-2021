@@ -239,7 +239,7 @@ const people = [
   {
     role: "Web Core Team Member",
     name: "Suraj Thammi",
-    imageUrl: "/team/Team2023/web/Suraj.jpg",
+    imageUrl: "/team/Team2023/web/suraj.jpg",
     instagramUrl: "https://www.instagram.com/suraj__712",
     githubUrl: "https://github.com/suraj719",
     linkedinUrl: "https://www.linkedin.com/in/surajthammi/"
