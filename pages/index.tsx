@@ -6,7 +6,6 @@
 
 import Head from "next/head";
 import React from "react";
-import { CoreTeamRecruitmentOpen } from "../src/components/CoreTeamRecruitmentOpen";
 import { FAQ } from "../src/components/FAQ";
 import { Hero } from "../src/components/Hero";
 import { Footer } from "../src/components/Layouts/Footer";
@@ -23,7 +22,6 @@ const Home: React.FC = () => {
       </Head>
       <Nav />
       <main className="pt-24">
-        <CoreTeamRecruitmentOpen />
         <Hero />
         <Motto />
         <Testimonial />

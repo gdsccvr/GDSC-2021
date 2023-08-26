@@ -6,7 +6,7 @@ interface IProps {
 }
 export const BlogCard: React.FC<IProps> = (props) => {
   return (
-    <Link href={`/blogs/${props.post.id}`}>
+    <Link href={`/blogs/${props.post.id}`} legacyBehavior>
       <div
         key={props.post.title}
         className='flex flex-col rounded-lg shadow-lg overflow-hidden cursor-pointer'
@@ -23,7 +23,7 @@ export const BlogCard: React.FC<IProps> = (props) => {
             <p className='text-sm font-medium text-green-600'>
               <span>{props.post.category}</span>
             </p>
-            <Link href={`/blogs/${props.post.id}`}>
+            <Link href={`/blogs/${props.post.id}`} legacyBehavior>
               <div className='cursor-pointer'>
                 <p className='text-xl font-semibold text-gray-900 block mt-2'>
                   {props.post.title}
