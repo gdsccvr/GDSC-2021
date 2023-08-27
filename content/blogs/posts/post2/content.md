@@ -12,5 +12,5 @@ datetime: '2020-05-01'
 imageUrl: 'https://miro.medium.com/max/1400/1*Bl-EM5EmdzGEdY34Ex_Ulw.png'
 author:
   name: 'Srimanth Tenneti'
-  imageUrl: '/team/SrimanthTenneti.jpg'
+  imageUrl: '/team/Team2021/SrimanthTenneti.jpg'
 ---

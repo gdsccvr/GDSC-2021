@@ -10,7 +10,7 @@ blogs:
     readingTime: '3 min'
     author:
       name: 'Srimanth Tenneti'
-      imageUrl: '/team/SrimanthTenneti.jpg'
+      imageUrl: '/team/Team2021/SrimanthTenneti.jpg'
   - id: 'post2'
     title: 'Simple CNN using PyTorch'
     category: 'Deep Learning'
@@ -21,7 +21,7 @@ blogs:
     readingTime: '4 min'
     author:
       name: 'Srimanth Tenneti'
-      imageUrl: '/team/SrimanthTenneti.jpg'
+      imageUrl: '/team/Team2021/SrimanthTenneti.jpg'
   - id: 'post3'
     title: 'Java'
     category: 'Programming'
@@ -32,5 +32,5 @@ blogs:
     readingTime: '4 min'
     author:
       name: 'Adil Shaik'
-      imageUrl: '/team/adil.jpeg'
+      imageUrl: '/team/Team2021/adil.jpeg'
 ---
