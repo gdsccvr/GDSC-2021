@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
-import { Popover, Transition } from '@headlessui/react';
+import { Popover, Transition, Menu } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import Dropdown from '../Dropdown';
 import Link from 'next/link';
 
 const navigation = [
@@ -45,9 +46,17 @@ export const Nav: React.FC = () => {
           </Popover.Button>
         </div>
 
+        {/* Nav ON Desktop Size (Medium<) */}
         <div className='hidden md:flex items-center justify-end md:flex-1 lg:w-0'>
           <Popover.Group as='nav' className='hidden md:flex space-x-10'>
             {navigation.map((navigate) => {
+              if (navigate.name == 'Team') {
+                return (
+                  <Dropdown key={navigate.name} navigate={navigate} textColor='gray'/>
+                );
+
+              }
+
               return (
                 <Link key={navigate.name} href={navigate.href} legacyBehavior>
                   <span className='cursor-pointer text-lg font-medium text-gray-500 hover:text-gray-900'>
@@ -58,6 +67,8 @@ export const Nav: React.FC = () => {
             })}
           </Popover.Group>
         </div>
+        {/* Medium Size End */}
+
       </div>
 
       <Transition
@@ -102,6 +113,19 @@ export const Nav: React.FC = () => {
             <div className='py-6 px-5'>
               <div className='grid grid-cols-1 gap-4'>
                 {navigation.map((navigate) => {
+
+                  // Dropdown For small screen
+
+                  if (navigate.name == 'Team') {
+                    return (
+                      <Dropdown key={navigate.name} navigate={navigate} textColor='black' />
+                    );
+
+                    // Dropdown for Small menu Ends
+    
+                  }
+
+
                   return (
                     <Link key={navigate.name} href={navigate.href} legacyBehavior>
                       <span className='cursor-pointer text-lg font-medium text-gray-900 hover:text-gray-700'>
