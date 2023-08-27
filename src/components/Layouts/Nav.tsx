@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Popover, Transition, Menu } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import Dropdown from '../Dropdown';
 import Link from 'next/link';
 
 const navigation = [
@@ -51,59 +52,7 @@ export const Nav: React.FC = () => {
             {navigation.map((navigate) => {
               if (navigate.name == 'Team') {
                 return (
-                  <div key={navigate.name}>
-                    <Menu as='div' className='relative inline-block text-left'>
-                      <div>
-                        <Menu.Button className='cursor-pointer text-lg font-medium text-gray-500 hover:text-gray-900'>
-                          {navigate.name}
-                        </Menu.Button>
-                      </div>
-                      <Transition
-                        as={Fragment}
-                        enter='duration-100 ease-out'
-                        enterFrom='opacity-0 scale-95'
-                        enterTo='opacity-100 scale-100'
-                        leave='duration-100 ease-in'
-                        leaveFrom='opacity-100 scale-100'
-                        leaveTo='opacity-0 scale-95'
-                      >
-                        <Menu.Items className='absolute left-20 mt-2 transform -translate-x-full bg-white border border-gray-700 px-5 shadow-md rounded-md focus:outline-none'>
-                          <div className='py-2'>
-                            <div className=' border-b-2 border-black w-full'>
-                              <Menu.Item>
-                                {({ active }) => (
-                                  <Link href='/team'>
-                                    <p
-                                      className={`block py-2 cursor-pointer text-sm ${active
-                                        ? 'bg-gray-100 text-gray-900'
-                                        : 'text-gray-700 hover:bg-gray-100'
-                                        }`}
-                                    >
-                                      2021
-                                    </p>
-                                  </Link>
-                                )}
-                              </Menu.Item>
-                            </div>
-                            <Menu.Item>
-                              {({ active }) => (
-                                <Link href='/team-2023'>
-                                  <p
-                                    className={`block py-2 cursor-pointer text-sm ${active
-                                      ? 'bg-gray-100 text-gray-900'
-                                      : 'text-gray-700 hover:bg-gray-100'
-                                      }`}
-                                  >
-                                    2023
-                                  </p>
-                                </Link>
-                              )}
-                            </Menu.Item>
-                          </div>
-                        </Menu.Items>
-                      </Transition>
-                    </Menu>
-                  </div>
+                  <Dropdown key={navigate.name} navigate={navigate} textColor='gray'/>
                 );
 
               }
@@ -169,59 +118,7 @@ export const Nav: React.FC = () => {
 
                   if (navigate.name == 'Team') {
                     return (
-                      <div key={navigate.name}>
-                        <Menu as='div' className='relative inline-block text-left'>
-                          <div>
-                            <Menu.Button className='cursor-pointer text-lg font-medium text-gray-900 hover:text-gray-700'>
-                              {navigate.name}
-                            </Menu.Button>
-                          </div>
-                          <Transition
-                            as={Fragment}
-                            enter='duration-100 ease-out'
-                            enterFrom='opacity-0 scale-95'
-                            enterTo='opacity-100 scale-100'
-                            leave='duration-100 ease-in'
-                            leaveFrom='opacity-100 scale-100'
-                            leaveTo='opacity-0 scale-95'
-                          >
-                            <Menu.Items className='absolute left-20 mt-2 transform -translate-x-full bg-white border border-gray-700 px-5 shadow-md rounded-md focus:outline-none'>
-                              <div className='py-2'>
-                                <div className=' border-b-2 border-black w-full'>
-                                  <Menu.Item>
-                                    {({ active }) => (
-                                      <Link href='/team'>
-                                        <p
-                                          className={`block py-2 cursor-pointer  text-sm ${active
-                                            ? 'bg-gray-100 text-gray-900'
-                                            : 'text-gray-700 hover:bg-gray-100'
-                                            }`}
-                                        >
-                                          2021
-                                        </p>
-                                      </Link>
-                                    )}
-                                  </Menu.Item>
-                                </div>
-                                <Menu.Item>
-                                  {({ active }) => (
-                                    <Link href='/team-2023'>
-                                      <p
-                                        className={`block py-2 cursor-pointer text-sm ${active
-                                          ? 'bg-gray-100 text-gray-900'
-                                          : 'text-gray-700 hover:bg-gray-100'
-                                          }`}
-                                      >
-                                        2023
-                                      </p>
-                                    </Link>
-                                  )}
-                                </Menu.Item>
-                              </div>
-                            </Menu.Items>
-                          </Transition>
-                        </Menu>
-                      </div>
+                      <Dropdown key={navigate.name} navigate={navigate} textColor='black' />
                     );
 
                     // Dropdown for Small menu Ends

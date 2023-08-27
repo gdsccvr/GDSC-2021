@@ -1,9 +1,9 @@
 import Head from "next/head";
 import React from "react";
-import { Heading } from "../src/components/Heading";
-import { Footer } from "../src/components/Layouts/Footer";
-import { Nav } from "../src/components/Layouts/Nav";
-import { TeamCard } from "../src/components/TeamCard";
+import { Heading } from "../../src/components/Heading";
+import { Footer } from "../../src/components/Layouts/Footer";
+import { Nav } from "../../src/components/Layouts/Nav";
+import { TeamCard } from "../../src/components/TeamCard";
 import Marquee from "react-fast-marquee";
 
 // const people21 = [
