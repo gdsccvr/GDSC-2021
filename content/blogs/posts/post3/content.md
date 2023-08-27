@@ -12,5 +12,5 @@ datetime: '2020-07-08'
 imageUrl: 'https://www.zdnet.com/a/img/resize/486cac744ae56e20951ec73a2ebbcb8c7c2ec454/2014/10/05/36793eae-4c32-11e4-b6a0-d4ae52e95e57/java-logo.jpg?width=1200&height=675&fit=crop&auto=webp'
 author:
   name: 'Adil Shaik'
-  imageUrl: '/team/adil.jpeg'
+  imageUrl: '/team/Team2021/adil.jpeg'
 ---
