@@ -13,7 +13,7 @@ interface IPerson {
   name: string;
   role: string;
   imageUrl: string;
-  bio: string;
+  // bio: string;
   githubUrl: string;
   linkedinUrl: string;
   instagramUrl: string;
