@@ -233,7 +233,7 @@ const people = [
     name: "Pavan Manish Devulapally",
     imageUrl: "/team/Team2023/web/Pavan.jpg",
     instagramUrl: "pavanmanish.d",
-    githubUrl: "github.com/pavanmanishd",
+    githubUrl: "https://github.com/pavanmanishd",
     linkedinUrl: "https://www.linkedin.com/in/pavanmanishd"
   },
   {
