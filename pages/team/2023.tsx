@@ -232,8 +232,8 @@ const people = [
     role: "Web Core Team Member",
     name: "Pavan Manish Devulapally",
     imageUrl: "/team/Team2023/web/Pavan.jpg",
-    instagramUrl: "pavanmanish.d",
-    githubUrl: "github.com/pavanmanishd",
+    instagramUrl: "https://www.instagram.com/pavanmanish.d",
+    githubUrl: "https://www.github.com/pavanmanishd",
     linkedinUrl: "https://www.linkedin.com/in/pavanmanishd"
   },
   {
