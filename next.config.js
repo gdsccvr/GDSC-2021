@@ -15,12 +15,12 @@ module.exports = {
         destination: "https://online.flippingbook.com/view/981439766/",
         permanent: false,
       },
-      /* TODO */
-      // {
-      //   source: "/bitnbuild/registration",
-      //   destination: "",
-      //   permanent: false,
-      // },
+      {
+        source: "/bitnbuild/registration",
+        destination:
+          "https://www.provast.io/contests?name=BIT%20N%20BUILD%20Hackathon",
+        permanent: false,
+      },
       {
         source: "/bitnbuild/problem-statements",
         destination:
