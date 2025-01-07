@@ -21,7 +21,7 @@ interface IPerson {
 export const TeamCard: React.FC<IProps> = (props) => {
   return (
     <div className='space-y-4'>
-      <div className='aspect-w-3 aspect-h-2'>
+      <div className='aspect-w-3 aspect-h-3'>
         <img
           className='object-cover shadow-lg rounded-lg'
           src={props.person.imageUrl}

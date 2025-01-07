@@ -52,6 +52,20 @@ const CustomMenu = ({ navigate, textColor }) => {
                   </Link>
                 )}
               </Menu.Item>
+              <Menu.Item>
+                {({ active }) => (
+                  <Link href='/team/2024'>
+                    <p
+                      className={`block py-2 cursor-pointer text-sm ${active
+                        ? 'text-gray-900'
+                        : 'text-gray-700 hover:text-black'
+                      }`}
+                    >
+                      2024
+                    </p>
+                  </Link>
+                )}
+              </Menu.Item>
             </div>
           </Menu.Items>
         </Transition>
