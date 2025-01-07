@@ -33,7 +33,7 @@ export const Nav: React.FC = () => {
                 alt='gdsccvr'
               />
               <span className='hidden lg:block text-xl font-semibold mb-1'>
-                Google Developers Student Club
+                Google Developers Group
               </span>
             </div>
 
@@ -97,7 +97,7 @@ export const Nav: React.FC = () => {
                       alt='gdsccvr'
                     />
                     <span className='text-xl font-semibold mb-1'>
-                      Google Developers Student Club
+                      Google Developers Group
                     </span>
                   </div>
 

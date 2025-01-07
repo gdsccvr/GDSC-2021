@@ -38,7 +38,7 @@ const blog: React.FC = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>GDSC | Blogs</title>
+        <title>GDGC | Blogs</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />

@@ -23,16 +23,14 @@ export const Hero: React.FC = () => {
               Developer
             </span>
             <span className="relative inline-block highlight z-10 mr-4">
-              Student
-            </span>
-            <span className="relative inline-block highlight z-10">
-              Clubs,{" "}
+              Group{" "}
             </span>{" "}
+            
           </h2>
 
           <div>
             <h3 className="text-lg mt-1">
-              At Google Developer Student Clubs’ CVR Chapter we leverage the
+              At Google Developer Group CVR Chapter we leverage the
               plethora of technologies and tools Google has created, in order to
               solve problems ranging from the ones in our communities to those
               that impact us on a global level.  

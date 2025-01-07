@@ -7,8 +7,8 @@ import { Nav } from '../src/components/Layouts/Nav';
 
 const eventList = [
   {
-    title: 'GDSC CVR Kickstart Event',
-    description: `In this event we introduced the GDSC club and its members to the student community at CVR College Of Engineering and had an interactive informative session. At the end of this session we received more than 200 new admissions into the GDSC CVR chapter.`,
+    title: 'GDGC CVR Kickstart Event',
+    description: `In this event we introduced the GDGC club and its members to the student community at CVR College Of Engineering and had an interactive informative session. At the end of this session we received more than 200 new admissions into the GDGC CVR chapter.`,
     date: '15 Sept 2021',
     time: '11:00 am',
     watchUrl: '',
@@ -26,8 +26,8 @@ const eventList = [
     registerUrl: '',
   },
   {
-    title: 'GDSC CVR World of Women kickstart',
-    description: `Analysing the registration data and the session check in data we understood that the participation from girls was very less. Hence, to encourage and motivate them, our WOW team conducted a session informing them about the benefits of GDSC and the help they would be able to receive from the team. `,
+    title: 'GDGC CVR World of Women kickstart',
+    description: `Analysing the registration data and the session check in data we understood that the participation from girls was very less. Hence, to encourage and motivate them, our WOW team conducted a session informing them about the benefits of GDGC and the help they would be able to receive from the team. `,
     date: '16 Oct 2021',
     time: '5:30 PM',
     watchUrl: 'https://youtu.be/oawV72PZntA',
@@ -36,7 +36,7 @@ const eventList = [
   },
   {
     title: 'Day 1: Introduction to Web Technologies',
-    description: `To help the students at CVR College of Engineering learn Web Development the GDSC’s web development team started a 3-day webinar from 18th - 20th October, from 7PM - 9PM. This event taught the students vital concepts like Git, HTML, CSS, Javascript and helped them implement 2 projects.`,
+    description: `To help the students at CVR College of Engineering learn Web Development the GDGC’s web development team started a 3-day webinar from 18th - 20th October, from 7PM - 9PM. This event taught the students vital concepts like Git, HTML, CSS, Javascript and helped them implement 2 projects.`,
     date: '18 Oct 2021',
     time: '7:00 pm',
     watchUrl: 'https://youtu.be/uX-58cfjVw4',
@@ -45,7 +45,7 @@ const eventList = [
   },
   {
     title: 'Day 2: Introduction to Web Technologies',
-    description: `To help the students at CVR College of Engineering learn Web Development the GDSC’s web development team started a 3-day webinar from 18th - 20th October, from 7PM - 9PM. This event taught the students vital concepts like Git, HTML, CSS, Javascript and helped them implement 2 projects.`,
+    description: `To help the students at CVR College of Engineering learn Web Development the GDGC’s web development team started a 3-day webinar from 18th - 20th October, from 7PM - 9PM. This event taught the students vital concepts like Git, HTML, CSS, Javascript and helped them implement 2 projects.`,
     date: '19 Oct 2021',
     time: '7:00 pm',
     speakers: 'Adil Shaik, Thushar KE, Hari Karthik',
@@ -54,7 +54,7 @@ const eventList = [
   },
   {
     title: 'Day 3: Introduction to Web Technologies',
-    description: `To help the students at CVR College of Engineering learn Web Development the GDSC’s web development team started a 3-day webinar from 18th - 20th October, from 7PM - 9PM. This event taught the students vital concepts like Git, HTML, CSS, Javascript and helped them implement 2 projects.`,
+    description: `To help the students at CVR College of Engineering learn Web Development the GDGC’s web development team started a 3-day webinar from 18th - 20th October, from 7PM - 9PM. This event taught the students vital concepts like Git, HTML, CSS, Javascript and helped them implement 2 projects.`,
     date: '20 Oct 2021',
     speakers: 'Adil Shaik, Thushar KE, Hari Karthik',
     time: '7:00 pm',
@@ -76,7 +76,7 @@ const events: React.FC = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>GDSC | Events</title>
+        <title>GDGC | Events</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />

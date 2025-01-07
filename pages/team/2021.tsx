@@ -197,7 +197,7 @@ const team: React.FC = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>GDSC | Team</title>
+        <title>GDGC | Team</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
@@ -220,7 +220,7 @@ const team: React.FC = () => {
               </div> */
             /* </div> */}
             <Heading
-              heading="GDSC Team 2021"
+              heading="GDGC Team 2021"
               description="A team that is extremely innovative and always on toes when it comes to
         managing and organising an event that can help the student community in
         their technical endeavours."

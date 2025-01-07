@@ -52,7 +52,7 @@ const tracks: React.FC = () => {
   return (
     <div className="bg-white">
       <Head>
-        <title>GDSC | Tracks</title>
+        <title>GDGC | Tracks</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
@@ -74,7 +74,7 @@ const tracks: React.FC = () => {
             Tracks
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-gray-300">
-            Our GDSC CVR has {supportLinks.length} tracks. Each track is
+            Our GDGC CVR has {supportLinks.length} tracks. Each track is
             dedicated on the technologies and their respective development in
             the field.
           </p>

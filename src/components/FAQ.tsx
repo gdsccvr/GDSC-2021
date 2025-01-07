@@ -3,17 +3,17 @@ import { ChevronDownIcon } from "@heroicons/react/outline";
 
 const faqs = [
   {
-    question: "What is GDSC?",
+    question: "What is GDGC?",
     answer:
-      "Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies. ... By joining a GDSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.",
+      "Google Developer Group (GDGC) are community groups for college and university students interested in Google developer technologies. ... By joining a GDGC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.",
   },
   {
-    question: "What is GDSC core team?",
+    question: "What is GDGC core team?",
     answer:
-      "Google Developer Student Clubs (GDSC) is an amazing community of students representing hundreds of colleges and universities across the globe. The core team oversees the operations of the GDSC College chapter. Benefits of becoming a member of a Core Team: Skill Enhancement, Network and connections, Personal Growth, and more!",
+      "Google Developer Group (GDGC) is an amazing community of students representing hundreds of colleges and universities across the globe. The core team oversees the operations of the GDGC College chapter. Benefits of becoming a member of a Core Team: Skill Enhancement, Network and connections, Personal Growth, and more!",
   },
   {
-    question: "Why should I join GDSC - CVR Chapter",
+    question: "Why should I join GDGC - CVR Chapter",
     answer:
       "By joining our chapter, students build their professional and personal networks, get access to Google developer resources, and work together to build solutions for local problems in a peer-to-peer learning environment. It is intended to be a space for students to learn and collaborate as they solve problems through various technologies like AI/ML, Android, Web, Blockchain, and more",
   },

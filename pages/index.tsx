@@ -17,7 +17,7 @@ const Home: React.FC = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>GDSC - CVR</title>
+        <title>GDGC - CVR</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />

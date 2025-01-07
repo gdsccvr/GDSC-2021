@@ -292,7 +292,7 @@ const people = [
     return (
       <>
         <Head>
-          <title>GDSC | Team</title>
+          <title>GDGC | Team</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Nav />
@@ -301,7 +301,7 @@ const people = [
             <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
              
               <Heading
-                heading="GDSC Team 2024"
+                heading="GDGC Team 2024"
                 description="A team that is extremely innovative and always on toes when it comes to
           managing and organising an event that can help the student community in
           their technical endeavours."

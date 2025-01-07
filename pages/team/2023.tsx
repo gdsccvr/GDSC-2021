@@ -203,7 +203,7 @@ const people = [
   },
   {
     name: "Shubh A Chudasama",
-    role: "GDSC Lead",
+    role: "GDGC Lead",
     imageUrl: "/team/Team2023/Shubh.jpg",
     bio: `A 20 y/o Hardware Designer and Software Developer, I have a knack for designing Digital Systems using Verilog HDL and have worked with protocols like AXI, AXI - Lite, AXI - Stream, AHB, AHB - Lite, UART, SPI. I also have a good grasp on SOC design and am proficient with RISC-based CPU design. I've worked with various microcontroller units like STM32, MSP430, TIVA Series, Arduino, AVR Tiny Series and can develop a bare-metal code.`,
     instagramUrl: "https://www.instagram.com/c_shubh_/",
@@ -484,7 +484,7 @@ const team: React.FC = () => {
   return (
     <>
       <Head>
-        <title>GDSC | Team</title>
+        <title>GDGC | Team</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
@@ -507,7 +507,7 @@ const team: React.FC = () => {
               </div> */
             /* </div> */}
             <Heading
-              heading="GDSC Team 2023"
+              heading="GDGC Team 2023"
               description="A team that is extremely innovative and always on toes when it comes to
         managing and organising an event that can help the student community in
         their technical endeavours."
