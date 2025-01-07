@@ -13,7 +13,7 @@ export const Testimonial: React.FC = () => {
             <div className='aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full'>
               <img
                 className='object-cover lg:h-full lg:w-full'
-                src='/team/Team2021/SrimanthTenneti.jpg'
+                src='/team/Team2024/Sheetal Gujar.jpeg'
                 alt='lead-image'
               />
             </div>
@@ -39,10 +39,10 @@ export const Testimonial: React.FC = () => {
               </div>
               <footer className='mt-6'>
                 <p className='text-base font-medium text-white'>
-                  Srimanth Tenneti
+                  Sheetal Gujar
                 </p>
                 <p className='text-base font-medium text-cyan-100'>
-                  GDGC Lead 2021
+                  GDGC Lead 2024
                 </p>
               </footer>
             </blockquote>
